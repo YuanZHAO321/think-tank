@@ -96,7 +96,7 @@ cp ~/.claude/skills/think-tank/CLAUDE.md /path/to/your/project/CLAUDE.md
 cp ~/.claude/skills/think-tank/AGENT.md /path/to/your/project/AGENT.md
 ```
 
-**`CLAUDE.md`** — 面向 Claude Code。复制进工作目录根部即生效（Claude Code 会自动加载工作目录的 `CLAUDE.md`）；装了本技能会优先调用其引擎与智慧库，未装时内嵌的精简流程也能独立运行。
+- **`CLAUDE.md`** — 面向 Claude Code。复制进工作目录根部即生效（Claude Code 会自动加载工作目录的 `CLAUDE.md`）；装了本技能会优先调用其引擎与智慧库，未装时内嵌的精简流程也能独立运行。
 - **`AGENT.md`**：面向任意 agent 的可移植"操作契约"，**完全自足**，不依赖技能是否安装。
 - 两者放一个即可；并存也不冲突。
 
